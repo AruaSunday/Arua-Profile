@@ -47,14 +47,15 @@ color: hsl(0, 0%, 100%)
     border-radius: 15px;
 }
 .ok:hover{
-
+    cursor: pointer;
     background-color: hsl(75, 94%, 57%);
 }
 a{
     color: hsl(0, 0%,100%);
-    margin: 10px;
-    padding: 20px;
+    /* margin: 10px; */
+    /* padding: 20px; */
     text-decoration: none;
+    display: block;
 }
 @media only screen and (max-width: 900px){   
     body{
